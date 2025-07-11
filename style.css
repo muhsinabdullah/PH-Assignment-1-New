@@ -96,7 +96,7 @@ main{
 .productive-section{
     padding: 40px 15px;
     text-align: center;
-    background-color: #87CEFA;
+    background-color: rgba(78, 71, 255, 0.1);
     border-radius: 10px;
     margin-bottom: 40px;
 }
@@ -137,19 +137,23 @@ main{
 }
 .stars{
     display: flex;
-    align-items: flex-start;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 .star-img{
     width: 20px;
     height: auto;
+    margin: 5px;
 }
 .review{
     margin-top: 5px;
+    margin: 10px;
 }
 .reviewer-info{
     display: flex;
     align-items: center;
     gap: 12px;
+    margin-left: 10px;
 }
 
 .reviewer-img{
@@ -159,29 +163,26 @@ main{
 }
 /* Newsletter Section */
 .newsletter-section{
-    padding: 80px 20px;
-    text-align: center;
-    background-color: white;
+    padding: 100px 150px;
     display: flex;
+    gap: 50px;
+    align-items: center;
     justify-content: space-around;
-    gap: 300px;
 }
 
+.newsletter-section-column{
+    width: 70%;
+}
 .newsletter-section-title{
-    text-align: left;
-}
-.contact-form{
-    margin: 0 auto;
-    text-align: left;
-}
-
-.contact-form label{
-    margin-top: 20px;
-    margin-bottom: 8px;
+    font-size: 97px;
     font-weight: bold;
 }
 
-.contact-form input, .contact-form textarea{
+.newsletter-section label{
+    font-size: 20px;
+    font-weight: bold;
+}
+.newsletter-section input[type="text"], .newsletter-section input[type="email"], .newsletter-section textarea{
     height: 64px;
     border-radius: 5px;
     background-color: white;
@@ -190,6 +191,7 @@ main{
     padding: 10px 20px;
     margin-bottom: 24px;
     font-size: 16px;
+    margin-top: 10px;
 }
 
 /* footer styles */
@@ -226,5 +228,5 @@ footer nav ul li{
 
 footer nav ul a{
     text-decoration: none;
-    font-size: 20px;
+    font-size: 15px;
 }
