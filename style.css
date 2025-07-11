@@ -114,6 +114,49 @@ main{
     color: #4E47FF;
 }
 
+/* Testimonial Section */
+.testimonial-section{
+    padding: 80px 20px;
+    background-color: #F7F8FC;
+}
+
+.testimonial-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.testimonial-card{
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    max-width: 300px;
+    width: 100%;
+    text-align: left;
+}
+.stars{
+    display: flex;
+    align-items: flex-start;
+}
+.star-img{
+    width: 20px;
+    height: auto;
+}
+.review{
+    margin-top: 5px;
+}
+.reviewer-info{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.reviewer-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
 /* Newsletter Section */
 .newsletter-section{
     padding: 80px 20px;
