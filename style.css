@@ -31,15 +31,17 @@
     padding: 0;
     font-weight: bold;
 }
-/* header styles */
-.header{
+/* nav styles */
+ nav{
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
 }
-.logo{
-    font-size: 24px;
-    font-weight: bold;
+
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
     color: #4E47FF;
 }
 
@@ -60,7 +62,11 @@
 .focus-btn{
     margin-top: 20px;
 }
-
+/* main section styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /* action section related styles */
 .action-section{
     margin-top: 100px;
@@ -71,20 +77,13 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
     padding: 0 20px;
 }
 
 .action-content{
-    width: 50%;
     text-align: left;
-}
-.action-note {
-    width: 45%;
 }
 
 .action-image {
-    width: 80%;
     border-radius: 8px;
 }
