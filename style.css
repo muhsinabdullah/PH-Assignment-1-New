@@ -17,7 +17,7 @@
 .action-btn:hover{
     background: white;
     color: black;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 .heading-main{
     font-size: 40px;
@@ -86,4 +86,26 @@ main{
 
 .action-image {
     border-radius: 8px;
+}
+
+/* Productive Users Section */
+.productive-section{
+    padding: 80px 20px;
+    text-align: center;
+    background-color: #87CEFA;
+    border-radius: 8px;
+}
+
+.stats-container{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.stat-item h3{
+    font-size: 48px;
+    margin-bottom: 10px;
+    color: #4E47FF;
 }
